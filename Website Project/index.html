@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>The Space Station | Resort</title>
+		<link rel="stylesheet" href="./css/animations.css">
+		<link rel="stylesheet" href="./css/shared.css">
 	</head>
 	<body>
 	
 		<!-- Navigation -->
-		<div>
-			<div>
+		<div class="wrap">
+			<div class="menu-container">
 				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#home"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
@@ -20,25 +22,25 @@
 		
 		<!-- Home -->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class="Container">
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
 		<!-- End Home -->
 		
 		<!-- Gallery -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="Container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- Photo Container 1-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb1.jpg" alt="An image of an adult and child holding hands. The adult is pointing to the sky which is dark, full of stars and a very large planet with geometric overlays.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -47,10 +49,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 2-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb2.jpg" alt="The background is a close shot of oceans as seen from space. In the foreground, conceptual art of a space elevator, with a long, thick black cable, white capsules on a ring around it.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -59,10 +61,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 3-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb3.jpg" alt="A view of the eastern United States at night from the ISS.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -71,10 +73,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 4-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb4.jpg" alt="Concept art of a space station viewing deck, a large window shows sunrise over the earth.">					
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -83,10 +85,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 5-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb5.jpg" alt="An art piece of a woman's profile on a white background, she is overlaid with imagery of Europe in the evening as shot from the ISS.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -95,10 +97,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 6-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb6.jpg" alt="A night image of the earth, shot from the ISS. Light is reflecting off the earth's horizon highlighting the atmosphere.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -107,10 +109,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 7-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb7.jpg" alt="A photograph of a man with a lantern, looking at the milky way very bright in the sky, it is reflected in the shallow, mirror-like water he is standing in.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -119,10 +121,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 8-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb8.jpg" alt="A close up satellite image of a galaxy in space.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -131,10 +133,10 @@
 					<!-- End Photo -->
 					
 					<!-- Photo Container 9-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumb9.jpg" alt="Catstronaut! Illustration of a cat in an astronaut suit, paw up, perhaps waving hello with what could be the moon in the background.">						
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Several launches daily.. etc. etc.</p>
 							</div>
@@ -148,28 +150,28 @@
 		<!-- End Gallery -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<section id="contact">
+			<div class="Container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Your adventure is waiting.</span>
-							<br />Reserve your spot today!
+							<br/>Reserve your spot today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							How can we get ahold of you?
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email">
-								<input class="rsvp" type="text" value="Phone">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email">
+								<input class="rsvp" type="text" value="" placeholder="Phone">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
-									<input type="submit" value="submit">
+								<div class="submit">
+									<input type="submit" value="Submit">
 								</div>
 							</form>
 						</div>
@@ -180,7 +182,7 @@
 		<!-- End RSVP -->
 		
 		<!-- Footer -->
-		<div>
+		<div id="footer">
 			www.thespacestation.whatv &nbsp;|&nbsp; &copy; 2021
 		<div>
 		<!-- End Footer -->
